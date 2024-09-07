@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<style>
+    body{
+        background-color: #B8B4FF;
+    }
+</style>
+
+<body>
+    <img src="logos.jpeg">
+    <div class="login-container">
+        <h1>Inicio de sesión</h1>
+        <h1>BIENVENIDO A DULCES SUEÑOS</h1>
+        <form action="login.php" method="post">
+            <label for="nombre_usuario">Nombre de usuario:</label><br>
+            <input type="text" id="nombre_usuario" name="nombre_usuario"><br>
+            <label for="correo">Correo:</label><br>
+            <input type="email" id="correo" name="correo"><br>
+            <label for="contrasena">Contraseña:</label><br>
+            <input type="password" id="contrasena" name="contrasena"><br>
+            <input type="submit" value="Ingresar" class="custom-button">
+            <br>
+            <br>
+            <a href="registro.html">No tienes una cuenta?</a>
+        </form>
+    </div>
+    
+</body>
+</html>
